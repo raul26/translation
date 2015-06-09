@@ -1,0 +1,25 @@
+.opt{
+  height: 10em;
+}
+hr{
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 3px 0;
+  margin: 10px 0;
+  color: rgb(99, 99, 205);
+  width: 30%;
+}
+#ocultar{
+  visibility: hidden;
+}
+.img{
+  margin-bottom: 20px;
+}
+.selected{
+  width:80%;
+}
