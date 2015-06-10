@@ -1,3 +1,6 @@
+body{
+  background-color: #bfb295;
+}
 .opt{
   height: 10em;
 }
@@ -22,4 +25,7 @@ hr{
 }
 .selected{
   width:80%;
+}
+.slct{
+  color: #4f6128;
 }
