@@ -12,7 +12,7 @@ hr{
   -moz-border-top-colors: none;
   border-color: #EEEEEE -moz-use-text-color #FFFFFF;
   border-style: solid none;
-  border-width: 3px 0;
+  border-width: 2px 0;
   margin: 10px 0;
   color: rgb(99, 99, 205);
   width: 30%;
@@ -24,8 +24,10 @@ hr{
   margin-bottom: 20px;
 }
 .selected{
-  width:80%;
 }
 .slct{
   color: #4f6128;
+}
+.tipop {
+  cursor: pointer;
 }
