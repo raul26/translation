@@ -1,9 +1,12 @@
 $(document).ready(function(){
+  $(".selected hr").css('width', "90%");
 	$(".tipop").on("click", function(){
     selectBackground($(this).data('opt'));
-		$(".tipop .selected").removeClass("selected");
-		$( ".tipop hr" ).animate({width: "30%"},300);
-		$(this).children().last().addClass("selected").animate({ width: "90%" }, 1000 );
+		$(".selected").removeClass("selected");
+		$( ".hr" ).animate({width: "30%"},1000);
+		$(this).children().first().animate({ width: "90%" }, 1000 );
+		$(this).children().last().animate({ width: "90%" }, 1000 );
+    $(this).addClass("selected");
 	})
 function selectBackground (opt) {
   var dir='';
@@ -31,11 +34,11 @@ function selectBackground (opt) {
     break;
     case 6:
       dir='css/images/H6.png';
-      color='#9999cc';
+      //color='#9999cc';
     break;
     case 7:
       dir='css/images/H7.png';
-      color='#669999';
+      //color='#669999';
     break;
     case 8:
       dir='css/images/H8.png';
