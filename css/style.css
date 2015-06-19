@@ -1,5 +1,9 @@
 body{
-  background-color: #bfb295;
+  background: url("images/H1.png") no-repeat top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .opt{
   height: 10em;
@@ -19,9 +23,6 @@ hr{
 }
 #ocultar{
   visibility: hidden;
-}
-.img{
-  margin-bottom: 20px;
 }
 .selected{
 }
