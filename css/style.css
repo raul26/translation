@@ -1,12 +1,5 @@
-body{
-  background: url("images/H1.png") no-repeat top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 .opt{
-  height: 9em;
+  height: 120px;
 }
 .hr{
   -moz-border-bottom-colors: none;
@@ -34,4 +27,84 @@ body{
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
+}
+.cl-uno{
+  background-color: #949c39;
+}
+.cl-uno .wraper{
+  background: url("images/H1.png") no-repeat top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.cl-dos{
+  background-color: #4d9e99;
+}
+.cl-dos .wraper{
+  background: url("images/H2.png") no-repeat top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.cl-tres{
+  background-color: #d68585;
+}
+.cl-tres .wraper{
+  background: url("images/H3.png") no-repeat top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.cl-cuatro{
+  background-color: #cc9966;
+}
+.cl-cuatro .wraper{
+  background: url("images/H4.png") no-repeat top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.cl-cinco{
+  background-color: #99cc99;
+}
+.cl-cinco .wraper{
+  background: url("images/H5.png") no-repeat top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.cl-seis{
+  background-color: #c4c4f3;
+}
+.cl-seis .wraper{
+  background: url("images/H6.png") no-repeat top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.cl-siete{
+  background-color: #9fc6c6;
+}
+.cl-siete .wraper{
+  background: url("images/H7.png") no-repeat top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.cl-ocho{
+  background-color: #999999;
+}
+.cl-ocho .wraper{
+  background: url("images/H8.png") no-repeat top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
