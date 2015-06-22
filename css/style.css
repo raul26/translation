@@ -49,6 +49,10 @@
 .selected{
   color: #fff;
 }
+#titulo{
+  color: #345a5f;
+  font-family: "AntonioBold";
+}
 .cl-uno{
   background-color: #949c39;
 }

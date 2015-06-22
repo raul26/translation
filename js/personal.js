@@ -16,5 +16,5 @@ function selectBackground (opt) {
   $("body").removeClass("cl-uno cl-dos cl-tres cl-cuatro cl-cinco cl-seis cl-siete cl-ocho");
   $("body").addClass(opt);
   var id = '#'+opt.split('-')[1];
-  $(id).slideDown();
+  $(id).show();
 }
