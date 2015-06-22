@@ -1,8 +1,24 @@
+@font-face{
+  font-family: "AntonioBold";
+  src: url("fonts/Antonio-Bold.woff") format("woff");
+}
+@font-face{
+  font-family: "ProBold";
+  src: url("fonts/MYRIADPRO-BOLDCOND.woff") format("woff");
+}
+@font-face{
+  font-family: "ProRegular";
+  src: url("fonts/MYRIADPRO-REGULAR.woff") format("woff");
+}
+.subtitulos{
+  font-family: "ProBold";
+}
 .opt{
   margin-bottom: 37%;
 }
 .content{
   text-align: center;
+  font-family: "ProRegular"
 }
 .hr{
   -moz-border-bottom-colors: none;
@@ -29,7 +45,7 @@
 .tipop {
   cursor: pointer;
   font-size: 16px;
-  font-weight: bold;
+  font-family: "AntonioBold";
 }
 .cl-uno{
   background-color: #949c39;
