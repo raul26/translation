@@ -1,5 +1,8 @@
 .opt{
-  height: 120px;
+  margin-bottom: 37%;
+}
+.content{
+  text-align: center;
 }
 .hr{
   -moz-border-bottom-colors: none;
