@@ -49,15 +49,12 @@
 .selected{
   color: #fff;
 }
-#titulo{
-  color: #345a5f;
-  font-family: "AntonioBold";
-}
+
 .cl-uno{
   background-color: #949c39;
 }
 .cl-uno .wraper{
-  background: url("images/H1.png") no-repeat top;
+  background: url("images/H1.png") no-repeat fixed center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -151,5 +148,20 @@
 #cuatro_text{
     margin-left: 139px;
 }
-
-
+#uno img{
+  margin-right: 25%;
+}
+#uno #titulo{
+  color: #345a5f;
+  font-family: "AntonioBold";
+  font-size: 50px;
+}
+#uno .hr{
+  color: #345a5f;
+  width: 20%;
+  border-width: 7px 0;
+  margin-left: 44%;
+}
+.text{
+  font-size: 16px;
+}
