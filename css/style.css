@@ -18,7 +18,8 @@
 }
 .content{
   text-align: center;
-  font-family: "ProRegular"
+  font-family: "ProRegular";
+  color: #fff;
 }
 .hr{
   -moz-border-bottom-colors: none;
@@ -33,9 +34,6 @@
   color: #fff;
   width: 30%;
 }
-.selected{
-  color: #fff;
-}
 #ocultar{
   visibility: hidden;
 }
@@ -46,6 +44,10 @@
   cursor: pointer;
   font-size: 16px;
   font-family: "AntonioBold";
+  color: #345a5f;
+}
+.selected{
+  color: #fff;
 }
 .cl-uno{
   background-color: #949c39;
@@ -127,7 +129,7 @@
   -o-background-size: cover;
   background-size: cover;
 }
-#text_next_book{  
+#text_next_book{
   top: -88px;
   text-align: left;
   right: -88px;
