@@ -111,3 +111,20 @@
   -o-background-size: cover;
   background-size: cover;
 }
+#text_next_book{  
+  top: -88px;
+  text-align: left;
+  right: -88px;
+}
+#text_down_book{
+  text-align: left;
+  top: -68px;
+  right: -90px;
+}
+#text_down_book_2{
+  text-align: left;
+  top: -47px;
+  right: -90px;
+}
+
+
