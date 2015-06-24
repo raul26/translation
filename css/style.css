@@ -49,7 +49,9 @@
 .selected{
   color: #fff;
 }
-
+#o3{
+  width:85%;
+}
 .cl-uno{
   background-color: #949c39;
 }
@@ -131,22 +133,21 @@
   background-size: cover;
 }
 #text_next_book{
-  top: -88px;
+  margin-top: -14%;
   text-align: left;
-  right: -88px;
+  margin-left: 11%;
 }
 #text_down_book{
   text-align: left;
-  top: -68px;
-  right: -90px;
+  margin-left: 11%;
 }
 #text_down_book_2{
   text-align: left;
-  top: -47px;
-  right: -90px;
+  margin-left: 11%;
+  margin-top: 2%;
 }
 #cuatro_text{
-    margin-left: 139px;
+  margin-left: 18%;
 }
 #uno img{
   margin-right: 25%;
@@ -182,7 +183,7 @@
     font-size:40px;
   }
 }
-@media (min-width: 768px) and (max-width: 991px){
+@media (max-width: 991px){
   .text{
     font-size:  14px;
   }
@@ -192,7 +193,15 @@
   #uno .text{
     margin-left: 28%;
   }
+  #text_next_book {
+    margin-top: -19%;
+  }
 }
 @media (max-width: 767px){
-
+.text{
+    font-size:  14px;
+  }
+  #uno .text{
+    margin-left: 13%;
+  }
 }
