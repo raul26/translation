@@ -166,7 +166,6 @@
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
-  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
   border-style: solid none;
   border-width: 2px 0;
   margin: 10px 0;
@@ -182,7 +181,9 @@ nav{
   display: none;
 }
 @media (min-width:1200px){ /* de 1200 para arriba */
-
+  #text_next_book{
+    margin-top: -8%;
+  }
 }
 @media (max-width: 1199px){
   #uno #titulo{
@@ -204,14 +205,21 @@ nav{
   }
 }
 @media (max-width: 767px){
-.text{
-    font-size:  14px;
+  .text{
+    font-size:  15px;
   }
   #uno .text{
     margin-left: 13%;
   }
   nav{
     display: block;
+  }
+  #uno .hrs{
+    margin-left: 38%;
+    width: 25%;
+  }
+  #cuatro_text{
+    margin-left: 10%;
   }
 }
 @media (max-width: 1041px){
