@@ -9,7 +9,19 @@ $(document).ready(function(){
 		$(this).children().first().animate({ width: "90%" }, 1000 );
 		$(this).children().last().animate({ width: "90%" }, 1000 );
     $(this).addClass("selected");
+
+
 	})
+
+    $(".tipop2").on("click", function(){
+
+    $(".active").removeClass("active");
+
+    $(this).parent().addClass("active");  
+    $('#again').click();
+
+  })
+
 });
 function selectBackground (opt) {
   $('.content').hide();
