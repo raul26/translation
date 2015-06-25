@@ -149,6 +149,9 @@
 #cuatro_text{
   margin-left: 18%;
 }
+#links{
+  margin-left: 18%;
+}
 #uno img{
   margin-right: 25%;
 }
@@ -205,3 +208,14 @@
     margin-left: 13%;
   }
 }
+@media (max-width: 1041px){
+  #links{
+    margin-left: 8%;
+  }
+}
+@media (max-width: 809px){
+  #links{
+    margin-left: 1%;
+  }
+}
+
