@@ -157,10 +157,19 @@
   margin-top: 2%;
 }
 #cuatro_text{
-  margin-left: 27%;
+  margin-left: 17%;
 }
+
+ #cuatro_text_quienes{
+      margin-left: 17%;
+
+  }
+#cuatro_text_solicitarla{
+  margin-left: 26%;
+  }
 #links{
   margin-left: 18%;
+    text-align: left;
 }
 #uno img{
   margin-right: 25%;
@@ -214,6 +223,9 @@ nav{
   #text_next_book {
     margin-top: -19%;
   }
+  #cuatro_text_solicitarla{
+  margin-left: 31%;
+  }
 }
 @media (max-width: 767px){
   .text{
@@ -230,7 +242,11 @@ nav{
     width: 25%;
   }
   #cuatro_text{
-    margin-left: 31%;
+    margin-left: 15%;
+  }
+  #cuatro_text_quienes{
+      margin-left: 12%;
+
   }
 }
 @media (max-width: 1041px){
