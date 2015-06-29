@@ -157,7 +157,7 @@
   margin-top: 2%;
 }
 #cuatro_text{
-  margin-left: 18%;
+  margin-left: 27%;
 }
 #links{
   margin-left: 18%;
@@ -203,6 +203,7 @@ nav{
 @media (max-width: 991px){
   .text{
     font-size:  14px;
+      margin-left: 30%;
   }
   #uno #titulo{
     font-size:27px;
@@ -229,7 +230,7 @@ nav{
     width: 25%;
   }
   #cuatro_text{
-    margin-left: 10%;
+    margin-left: 31%;
   }
 }
 @media (max-width: 1041px){
