@@ -22,6 +22,7 @@ $(document).ready(function(){
 
   })
 
+
 });
 function selectBackground (opt) {
   $('.content').hide();

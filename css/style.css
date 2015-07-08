@@ -10,6 +10,17 @@
   font-family: "ProRegular";
   src: url("fonts/MYRIADPRO-REGULAR.woff") format("woff");
 }
+#conoce{
+
+  background-color: #996633;
+}
+#TSJ{
+  background-color: #669966;
+}
+.color_modal{
+
+  background-color: #FFCC99;
+}
 .subtitulos{
   font-family: "ProBold";
 }
