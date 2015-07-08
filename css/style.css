@@ -11,18 +11,26 @@
   src: url("fonts/MYRIADPRO-REGULAR.woff") format("woff");
 }
 #conoce{
-
   background-color: #996633;
 }
 #TSJ{
   background-color: #669966;
 }
 .color_modal{
-
   background-color: #FFCC99;
+}
+#tres #titulo{
+  font-size:30px;
+  font-family: "ProBold";
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+#tres img{
+  margin-top: 5%;
 }
 .subtitulos{
   font-family: "ProBold";
+  font-size: 25px;
 }
 .opt{
   margin-bottom: 37%;
@@ -183,9 +191,10 @@
   margin-right: 25%;
 }
 #uno #titulo{
+
   color: #345a5f;
   font-family: "AntonioBold";
-  font-size: 50px;
+  font-size: 37px;
 }
 #uno .hrs{
   -moz-border-bottom-colors: none;
@@ -202,7 +211,7 @@
   margin-left: 44%;
 }
 .text{
-  font-size: 16px;
+  font-size: 21px;
 }
 nav{
   display: none;
