@@ -49,6 +49,9 @@
 #tres img{
   margin-top: 5%;
 }
+.left{
+  text-align: left;
+}
 .subtitulos{
   font-family: "ProBold";
   font-size: 25px;
