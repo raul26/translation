@@ -10,6 +10,27 @@
   font-family: "ProRegular";
   src: url("fonts/MYRIADPRO-REGULAR.woff") format("woff");
 }
+#green{
+  background-color: #336633;
+}
+#map_table{
+    position: relative;
+  right: -13%;
+  text-align: left;
+  width: 92%;
+
+}
+.derecha{
+  text-align: right;
+}
+
+.map{
+  background: url("images/Fondo map.png") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 #conoce{
   background-color: #996633;
 }
@@ -231,6 +252,9 @@ nav{
     font-size:  14px;
       margin-left: 30%;
   }
+  #map_table{
+    right: 10%;
+  }
   #uno #titulo{
     font-size:27px;
   }
@@ -247,6 +271,9 @@ nav{
 @media (max-width: 767px){
   .text{
     font-size:  15px;
+  }
+   #map_table{
+    right: 15%;
   }
   #uno .text{
     margin-left: 13%;
