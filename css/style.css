@@ -24,6 +24,11 @@
   text-align: right;
 }
 
+
+#cinco a{
+  color: white;
+}
+
 .map{
   background: url("images/Fondo map.png") no-repeat center;
   -webkit-background-size: cover;
