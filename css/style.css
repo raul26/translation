@@ -25,7 +25,7 @@
 }
 
 
-#cinco a{
+#cinco table a{
   color: white;
 }
 
@@ -225,6 +225,16 @@
   font-family: "AntonioBold";
   font-size: 37px;
 }
+#tres #titulo{
+  font-family: "AntonioBold";
+  font-size: 37px;
+}
+.cont{
+  font-size: 21px;
+}
+.sp{
+  display: none;
+}
 #uno .hrs{
   -moz-border-bottom-colors: none;
   -moz-border-image: none;
@@ -300,10 +310,16 @@ nav{
       margin-left: 12%;
 
   }
+  .cont{
+    font-size: 19px;
+  }
 }
 @media (max-width: 1041px){
   #links{
     margin-left: 8%;
+  }
+  .sp{
+    display: block;
   }
 }
 @media (max-width: 809px){
