@@ -29,6 +29,10 @@
   color: white;
 }
 
+#color_new{
+  color: #1E4B73;
+}
+
 .map{
   background: url("images/Fondo map.png") no-repeat center;
   -webkit-background-size: cover;
