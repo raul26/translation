@@ -208,11 +208,21 @@
 #cuatro_text{
   margin-left: 17%;
 }
+#menu-right{
+  text-align: right;
+}
+#menu-right p{
 
- #cuatro_text_quienes{
-      margin-left: 17%;
+}
+#menu-right hr{
+  float: right;
+  margin-left: 54%;
 
-  }
+}
+#cuatro_text_quienes{
+  margin-left: 17%;
+
+}
 #cuatro_text_solicitarla{
   margin-left: 26%;
   }
@@ -271,7 +281,7 @@ nav{
 }
 @media (max-width: 991px){
   .text{
-    font-size:  14px;
+    font-size:  17px;
       margin-left: 30%;
   }
   #map_table{
@@ -292,7 +302,7 @@ nav{
 }
 @media (max-width: 767px){
   .text{
-    font-size:  15px;
+    font-size:  17px;
   }
    #map_table{
     right: 15%;
