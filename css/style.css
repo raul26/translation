@@ -154,11 +154,12 @@
   background-color: #99cc99;
 }
 .cl-cinco .wraper{
-  background: url("images/H5.png") no-repeat top;
+  background: url("images/H5.png") no-repeat 110px -198%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  /*background-position: 40% -198%;*/
 }
 .cl-seis{
   /*background-color: #c4c4f3;*/
@@ -327,6 +328,33 @@ nav{
     margin-left: 31%;
   }
 }
+@media (max-width: 1180px){
+  .cl-cinco .wraper{
+    background-position: 60px -198%;
+  }
+}
+@media (max-width: 1041px){
+  .cl-cinco .wraper{
+    background-position: -35px -198%;
+  }
+  #links{
+    margin-left: 8%;
+  }
+  .sp{
+    display: block;
+  }
+}
+@media (max-width: 905px){
+  .cl-cinco .wraper{
+    background-position: -90px -198%;
+  }
+}
+@media (max-width: 809px){
+  #links{
+    margin-left: 1%;
+  }
+}
+
 @media (max-width: 767px){
   .text{
     font-size:  17px;
@@ -349,23 +377,16 @@ nav{
   }
   #cuatro_text_quienes{
       margin-left: 12%;
-
   }
   .cont{
     font-size: 19px;
   }
-}
-@media (max-width: 1041px){
-  #links{
-    margin-left: 8%;
-  }
-  .sp{
-    display: block;
+  .cl-cinco .wraper{
+    background-position: -168px -198%;
   }
 }
-@media (max-width: 809px){
-  #links{
-    margin-left: 1%;
+@media (max-width: 550px){
+  .cl-cinco .wraper{
+    background-position: -260px -198%;
   }
 }
-
