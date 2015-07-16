@@ -154,16 +154,15 @@
   background-color: #99cc99;
 }
 .cl-cinco .wraper{
-  background: url("images/H5.png") no-repeat 110px -198%;
+  background: url("images/H5.png") no-repeat top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /*background-position: 40% -198%;*/
+  /*background-position: 110px -198%;*/
 }
 .cl-seis{
-  /*background-color: #c4c4f3;*/
-  background-color: #fff;
+  background-color: #9999cc;
 }
 .cl-seis .wraper{
   background: url("images/H6.png") no-repeat top;
@@ -173,8 +172,7 @@
   background-size: cover;
 }
 .cl-siete{
-  /*background-color: #9fc6c6;*/
-  background-color: #fff;
+  background-color:  #669999;
 }
 .cl-siete .wraper{
   background: url("images/H7.png") no-repeat top;
@@ -328,25 +326,12 @@ nav{
     margin-left: 31%;
   }
 }
-@media (max-width: 1180px){
-  .cl-cinco .wraper{
-    background-position: 60px -198%;
-  }
-}
 @media (max-width: 1041px){
-  .cl-cinco .wraper{
-    background-position: -35px -198%;
-  }
   #links{
     margin-left: 8%;
   }
   .sp{
     display: block;
-  }
-}
-@media (max-width: 905px){
-  .cl-cinco .wraper{
-    background-position: -90px -198%;
   }
 }
 @media (max-width: 809px){
@@ -380,13 +365,5 @@ nav{
   }
   .cont{
     font-size: 19px;
-  }
-  .cl-cinco .wraper{
-    background-position: -168px -198%;
-  }
-}
-@media (max-width: 550px){
-  .cl-cinco .wraper{
-    background-position: -260px -198%;
   }
 }
