@@ -10,6 +10,13 @@ $(document).ready(function(){
 		$(this).children().last().animate({ width: "90%" }, 1000 );
     $(this).addClass("selected");
 
+    if($(this).data("opt")!="cl-uno"){
+      $("#imgOculta").hide();
+    }
+    else{
+       $("#imgOculta").show();
+    }
+
 
 	})
 
@@ -21,6 +28,7 @@ $(document).ready(function(){
     $('#again').click();
 
   })
+
 
 
 });

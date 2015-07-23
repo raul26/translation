@@ -20,6 +20,15 @@
   width: 92%;
 
 }
+.abs{
+  position: absolute;
+    top: -9%;
+}
+.abs2{
+position: absolute;
+  top: 4%;
+  right: 0;
+}
 .derecha{
   text-align: right;
 }
@@ -38,6 +47,7 @@
 }
 #conoce{
   background-color: #996633;
+    margin-top: 3%;
 }
 #TSJ{
   background-color: #669966;
@@ -71,6 +81,7 @@
 }
 #cinco .img-pos{
   margin-left: 38%;
+    width: 19%;
 }
 #tres #img-top{
   padding-bottom: 10%;
@@ -194,16 +205,22 @@
 #text_next_book{
   margin-top: -14%;
   text-align: left;
+    margin-left: 2%;
+
 }
 #text_down_book{
   text-align: left;
+    margin-left: 2%;
+
 }
 #text_down_book_2{
   text-align: left;
   margin-top: 2%;
+    margin-left: 2%;
+
 }
 #cuatro_text{
-  margin-left: 17%;
+   margin-top: -6%;
 }
 #menu-right{
   text-align: right;
@@ -226,6 +243,7 @@
 #links{
   margin-left: 7%;
     text-align: left;
+      margin-top: -7%;
 }
 #uno img{
   margin-left: 27.333%;
@@ -233,13 +251,13 @@
 #uno #titulo{
   color: #345a5f;
   font-family: "AntonioBold";
-  font-size: 37px;
+  font-size: 30px;
 }
 #uno #titulo div{
   margin-left: 29.33%;
 }
 #uno .text div{
-  margin-left: 30%;
+  margin-left:14%;
 }
 #tres #titulo{
   font-family: "AntonioBold";
@@ -250,7 +268,13 @@
 }
 .cont{
   font-size: 21px;
+   margin-top: -2%;
 }
+.cont_p{
+  font-size: 21px;
+   margin-top: -2%;
+}
+
 .modal-body {
   font-size: 22px;
 }
@@ -286,6 +310,8 @@ nav{
 @media (min-width:1200px){ /* de 1200 para arriba */
   #text_next_book{
     margin-top: -8%;
+      margin-left: 2%;
+
   }
 }
 @media (max-width: 1199px){
@@ -304,11 +330,11 @@ nav{
     margin-left: 9.33%;
   }
   #uno .text div{
-    margin-left: -4%;
+    margin-left: 12%;
   }
   .text{
     font-size:  17px;
-    margin-left: 30%;
+  
   }
   #map_table{
     right: 10%;
@@ -316,15 +342,22 @@ nav{
   #uno #titulo{
     font-size:27px;
   }
-  #uno .text{
-    margin-left: 28%;
-  }
+ 
   #text_next_book {
     margin-top: -19%;
   }
   #cuatro_text_solicitarla{
     margin-left: 31%;
   }
+  .abs2 {
+  position: absolute;
+  top: 1%;
+  right: 0;
+}
+.abs {
+  position: absolute;
+  top: -6%;
+}
 }
 @media (max-width: 1041px){
   #links{
@@ -365,5 +398,15 @@ nav{
   }
   .cont{
     font-size: 19px;
+
+
   }
+
+.abs {
+  position: absolute;
+  top: 6%;
+}
+.abs2{
+  visibility: hidden;
+}
 }
